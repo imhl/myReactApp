@@ -27,7 +27,7 @@ function App() {
             </div>
           </nav>
           <Routes>
-            <Route path="/STX" element={<ShowPage />} />
+            <Route path="/STXXX" element={<ShowPage />} />
             <Route path="/OM" element={<ShowPageOM />} />
           </Routes>
         </Router>
