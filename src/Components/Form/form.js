@@ -15,7 +15,8 @@ export const Login = ({getToken}) => {
         // const headers = {
         //     Authorization: `Basic ${encodedCredentials}`,
         // };
-        const url = 'http://localhost:5000'; // Replace with your actual API URL
+        const serverAddress=window.location.hostname;
+        const url = 'http://'+serverAddress+ ':5000'; // Replace with your actual API URL
         fetch(`${url}/api/user/gettoken`, {
             method: 'POST',
             headers: {
